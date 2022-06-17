@@ -1,0 +1,33 @@
+
+      body {
+         font-family: Calibri, Myriad;
+      }
+
+      div {
+         margin-bottom: 5px;
+      }
+
+      label {
+         width: 120px;
+         display: inline-block;
+      }
+
+      input, textarea {
+         width: 300px;
+         padding: 10px;
+      }
+
+      input[type="submit"] {
+         width: auto;
+      }
+      .required::after{
+         content: "*";
+         color: red;
+      }
+
+      label + input{
+         background-color: rgb(219, 241, 248);
+      }
+      /* Your solution goes here */
+
+
